@@ -25,9 +25,9 @@ public class CompareController {
 	private static final String regex = "^[0-9]+(\\.[0-9]+)*$";
 	Pattern p = Pattern.compile(regex);
 
-	@Operation(summary = "Get the comperasion result", description = "Compare given version and resturn result")
+	@Operation(summary = "Get the comparison result", description = "Compare given version and resturn result")
 	@ApiResponses(value = {
-			@ApiResponse(responseCode = "200", description = "Result of comperasion. Result attribute shows the util response and message shows the human readable response  ", content = {
+			@ApiResponse(responseCode = "200", description = "Result of comparison. Result attribute shows the util response and message shows the human readable response  ", content = {
 					@Content(mediaType = "application/json", schema = @Schema(implementation = CompareResult.class)) }),
 
 			@ApiResponse(responseCode = "400", description = "Versions are not in vaild format. "),
