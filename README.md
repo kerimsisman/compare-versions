@@ -1,4 +1,4 @@
-# compare-versions
+# Compare-versions
 This app compares 2 given version and expose result of comparison. An util created for comparsion. OpenApi/swagger-ui integrated. Services developer by Java Spring Boot framework and deployed on Heroku. You can see swagger and openApi urls below. Used lombok library for getters/setters. /compare rest api uses the comparsion util from com.sojern.compare.versions.util.CompareVersionsUtil.java
 
 
